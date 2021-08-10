@@ -1,0 +1,28 @@
+ /*Yii 2 new version -> long text content will break layout of gridview*/
+    /* backend/web/css/site.css*/
+    /*.grid-view td {*/
+        /*white-space: nowrap;*/
+    /*}*/
+
+
+    .grid-view td {
+        white-space: inherit !important;
+    }
+
+Yii::getAlias('@app')
+
+@yii - framework directory.
+
+@app - base path of currently running application. C:\xampp\htdocs\hicom-events\backend/
+
+@runtime - runtime directory.
+
+@vendor - Composer vendor directory.
+
+@webroot - web root directory of currently running web application. C:/xampp/htdocs/hicom-events/backend/web
+
+@web - base URL of currently running web application. /hicom-events/backend/web
+
+
+//Helper for internal (Related to model) -> backend/components
+//Helper for external (Not Related to model) -> projectemplate/components
